@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#DCP-T220").click(function (e) { 
         e.preventDefault();
-        var destinationURL = "./html/DCP-T220.html"; 
+        var destinationURL = "../html/DCP-T220.html"; 
         window.location.href = destinationURL;
     });
     $("#DCP-T720").click(function (e) { 
