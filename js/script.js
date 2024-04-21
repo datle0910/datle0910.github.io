@@ -1,22 +1,22 @@
 $(document).ready(function() {
     $("#DCP-T220").click(function (e) { 
         e.preventDefault();
-        var destinationURL = "../html/DCP-T220.html"; 
+        var destinationURL = "./html/DCP-T220.html"; 
         window.location.href = destinationURL;
     });
     $("#DCP-T720").click(function (e) { 
         e.preventDefault();
-        var destinationURL = "../html/DCP-T720DW.html"; 
+        var destinationURL = "./html/DCP-T720DW.html"; 
         window.location.href = destinationURL;
     });
     $("#B7535").click(function (e) { 
         e.preventDefault();
-        var destinationURL = "../html/B7535DW.html"; 
+        var destinationURL = "./html/B7535DW.html"; 
         window.location.href = destinationURL;
     });
     $("#MFP").click(function (e) { 
         e.preventDefault();
-        var destinationURL = "../html/MFP.html"; 
+        var destinationURL = "./html/MFP.html"; 
         window.location.href = destinationURL;
     });
     $("#L2520D").click(function (e) { 
